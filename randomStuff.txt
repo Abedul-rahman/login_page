@@ -1,0 +1,3 @@
+blue color: #002147
+green: #32CD32
+light blue: # 4070f4
