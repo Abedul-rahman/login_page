@@ -313,6 +313,10 @@ body{
         padding: 0 auto;
         transition: 1.5s ease;
         transition-delay: 0s;
+            padding: 0px 9px !important;
+        left: auto !important;
+        right: auto !important;
+    
     }
     .btn,.input-box{
         text-align: center;
@@ -320,12 +324,6 @@ body{
     }
     .input-box input{
         padding: 0;
-    }
-    .form{
-        padding: 0px 9px !important;
-        left: auto !important;
-        right: auto !important;
-    
     }
     .container{
         display: flex;
