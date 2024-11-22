@@ -294,3 +294,45 @@ body{
     transition-delay: 2s;
     pointer-events: auto;
 }
+<<<<<<< Updated upstream
+=======
+@media (max-width:770px){
+ .container{
+        width: 100%;
+        padding: 0 ;
+        margin: 2px;
+    
+ }
+    .container .form.login, .container.active .form.register{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+        transition: 1.5s ease;
+        transition-delay: 0s;
+    }
+    .btn,.input-box{
+        text-align: center;
+        width: 100%;
+    }
+    .input-box input{
+        padding: 0;
+    }
+    .form{
+        padding: 0 5px !important;
+        left: auto !important;
+        right: auto !important;
+    
+    }
+    .container{
+        display: flex;
+        justify-content: center ;
+        align-items: center ;
+    }
+    
+  .box1 ,.box2,.container .info.login,.container.active .info.register{
+    display: none;
+  }
+}
+
+>>>>>>> Stashed changes
