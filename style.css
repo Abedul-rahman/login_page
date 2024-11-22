@@ -297,6 +297,9 @@ body{
 
 }
 @media (max-width:770px){
+.main-container{
+    padding: 9px;
+}
  .container{
         width: 100%;
         padding: 0 ;
@@ -319,7 +322,7 @@ body{
         padding: 0;
     }
     .form{
-        padding: 0 5px !important;
+        padding: 2px !important;
         left: auto !important;
         right: auto !important;
     
