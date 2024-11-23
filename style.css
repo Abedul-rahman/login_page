@@ -310,10 +310,9 @@ body{
         text-align: center;
         width: 100%;
         margin: 0 auto;
-        padding: 0 auto;
         transition: 1.5s ease;
         transition-delay: 0s;
-            padding: 0px 9px !important;
+        padding: 0px 12px !important;
         left: auto !important;
         right: auto !important;
     
