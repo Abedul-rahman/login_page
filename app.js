@@ -66,7 +66,7 @@ const Validation=(ele)=>{
     return ele.value.match(req);
 
 }
-let counter=0;
+
 function Validated(ele){
     if(ele.value=="")netural(ele);
     else if(Validation(ele))Valid(ele);
