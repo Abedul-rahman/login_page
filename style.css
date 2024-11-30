@@ -35,7 +35,6 @@ body{
       
 }
 .header{
-    backdrop-filter: blur(4px);
       
     position: relative;
     top: -20px ;
@@ -126,12 +125,13 @@ body{
     transition: 0.5s;    
 }
 .input-box input:focus~i{
-    color:#4070f4;
+    color:#4070f4  !important;
 }
 .input-box input:focus{
-    border-color:#4070f4  ;
+    border-color:#4070f4  !important   ;
 }
 .input-box label{
+    transition: duration 0.3s; ;
     position: absolute;
     left: 0px;
     top: 50%;
@@ -140,12 +140,7 @@ body{
     pointer-events:none;
     user-select: none;
 }
-.input-box input:valid~i{
- color: #138808;  
-}
-.input-box input:valid{
-    border-color: #138808;
-}
+
 .input-box input:focus~label,.input-box input:valid~label{
     display: none;
 
@@ -296,6 +291,21 @@ body{
     pointer-events: auto;
 
 }
+
+.input-box .invalid~i,.input-box .invalid~label{
+    color:#FE0000 ;
+}
+.input-box .invalid{
+    border-color:#FE0000 ;
+}
+.input-box .valid~i,.input-box .valid~label{
+    color: #138808 ;  
+   }
+   .input-box .valid{
+       border-color: #138808 ;
+   }
+
+
 @media (max-width:770px){
 .main-container{
     padding: 9px;
@@ -334,4 +344,3 @@ body{
     display: none;
   }
 }
-
